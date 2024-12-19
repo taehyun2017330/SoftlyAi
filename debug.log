@@ -1,0 +1,272 @@
+2024-12-19 00:16:08,789 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:16:08,790 - SequentialDataFetcher - DEBUG - Sending ticker prompt to GPT: Extract the stock ticker symbol from this question. If multiple companies are mentioned, identify the main one being asked about. If no specific ticker is mentioned but a company name is, provide its ticker. Only return the ticker symbol in capital letters, nothing else.
+
+Question: "Can you explain TSLA's recent performance?"
+
+2024-12-19 00:16:09,615 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:16:09,615 - SequentialDataFetcher - DEBUG - Verifying ticker TSLA with yfinance
+2024-12-19 00:16:12,995 - SequentialDataFetcher - ERROR - Invalid ticker or no market data for TSLA
+2024-12-19 00:16:12,995 - SequentialDataFetcher - DEBUG - Info received: {'address1': '1 Tesla Road', 'city': 'Austin', 'state': 'TX', 'zip': '78725', 'country': 'United States', 'phone': '512 516 8177', 'website': 'https://www.tesla.com', 'industry': 'Auto Manufacturers', 'industryKey': 'auto-manufacturers', 'industryDisp': 'Auto Manufacturers', 'sector': 'Consumer Cyclical', 'sectorKey': 'consumer-cyclical', 'sectorDisp': 'Consumer Cyclical', 'longBusinessSummary': 'Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive, and Energy Generation and Storage. The Automotive segment offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty after-sales vehicle, used vehicles, body shop and parts, supercharging, retail merchandise, and vehicle insurance services. This segment also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. The Energy Generation and Storage segment engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners; and provision of service and repairs to its energy product customers, including under warranty, as well as various financing options to its solar customers. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.', 'fullTimeEmployees': 140473, 'companyOfficers': [{'maxAge': 1, 'name': 'Mr. Elon R. Musk', 'age': 51, 'title': 'Co-Founder, Technoking of Tesla, CEO & Director', 'yearBorn': 1972, 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Vaibhav  Taneja', 'age': 45, 'title': 'Chief Financial Officer', 'yearBorn': 1978, 'fiscalYear': 2023, 'totalPay': 278000, 'exercisedValue': 8517957, 'unexercisedValue': 202075632}, {'maxAge': 1, 'name': 'Mr. Xiaotong  Zhu', 'age': 43, 'title': 'Senior Vice President of Automotive', 'yearBorn': 1980, 'fiscalYear': 2023, 'totalPay': 926877, 'exercisedValue': 0, 'unexercisedValue': 344144320}, {'maxAge': 1, 'name': 'Travis  Axelrod', 'title': 'Head of Investor Relations', 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Brian  Scelfo', 'title': 'Senior Director of Corporate Development', 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Franz  von Holzhausen', 'title': 'Chief Designer', 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. John  Walker', 'age': 60, 'title': 'Vice President of Sales - North America', 'yearBorn': 1963, 'fiscalYear': 2023, 'totalPay': 121550, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter  Bannon', 'title': 'Chip Architect', 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Turner  Caldwell', 'title': 'Engineering Manager', 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rodney D. Westmoreland Jr.', 'title': 'Director of Construction Management', 'fiscalYear': 2023, 'exercisedValue': 0, 'unexercisedValue': 0}], 'auditRisk': 7, 'boardRisk': 9, 'compensationRisk': 10, 'shareHolderRightsRisk': 9, 'overallRisk': 10, 'governanceEpochDate': 1733011200, 'compensationAsOfEpochDate': 1703980800, 'maxAge': 86400, 'priceHint': 2, 'previousClose': 479.86, 'open': 466.36, 'dayLow': 461.11, 'dayHigh': 475.4094, 'regularMarketPreviousClose': 479.86, 'regularMarketOpen': 466.36, 'regularMarketDayLow': 461.11, 'regularMarketDayHigh': 475.4094, 'beta': 2.295, 'trailingPE': 129.98203, 'forwardPE': 145.071, 'volume': 26395205, 'regularMarketVolume': 26395205, 'averageVolume': 91013061, 'averageVolume10days': 93298530, 'averageDailyVolume10Day': 93298530, 'bid': 472.99, 'ask': 476.57, 'bidSize': 100, 'askSize': 100, 'marketCap': 1522962923520, 'fiftyTwoWeekLow': 138.8, 'fiftyTwoWeekHigh': 483.99, 'priceToSalesTrailing12Months': 15.676407, 'fiftyDayAverage': 309.1128, 'twoHundredDayAverage': 227.16154, 'currency': 'USD', 'enterpriseValue': 1520293249024, 'profitMargins': 0.13075, 'floatShares': 2793105010, 'sharesOutstanding': 3210060032, 'sharesShort': 77192871, 'sharesShortPriorMonth': 77944508, 'sharesShortPreviousMonthDate': 1730332800, 'dateShortInterest': 1732838400, 'sharesPercentSharesOut': 0.024, 'heldPercentInsiders': 0.12911001, 'heldPercentInstitutions': 0.47906, 'shortRatio': 0.77, 'shortPercentOfFloat': 0.0276, 'impliedSharesOutstanding': 3210060032, 'bookValue': 21.806, 'priceToBook': 21.757057, 'lastFiscalYearEnd': 1703980800, 'nextFiscalYearEnd': 1735603200, 'mostRecentQuarter': 1727654400, 'earningsQuarterlyGrowth': 0.169, 'netIncomeToCommon': 12743000064, 'trailingEps': 3.65, 'forwardEps': 3.24, 'lastSplitFactor': '3:1', 'lastSplitDate': 1661385600, 'enterpriseToRevenue': 15.649, 'enterpriseToEbitda': 114.791, '52WeekChange': 0.94165254, 'SandP52WeekChange': 0.28781593, 'exchange': 'NMS', 'quoteType': 'EQUITY', 'symbol': 'TSLA', 'underlyingSymbol': 'TSLA', 'shortName': 'Tesla, Inc.', 'longName': 'Tesla, Inc.', 'firstTradeDateEpochUtc': 1277818200, 'timeZoneFullName': 'America/New_York', 'timeZoneShortName': 'EST', 'uuid': 'ec367bc4-f92c-397c-ac81-bf7b43cffaf7', 'messageBoardId': 'finmb_27444752', 'gmtOffSetMilliseconds': -18000000, 'currentPrice': 474.4344, 'targetHighPrice': 528.0, 'targetLowPrice': 116.0, 'targetMeanPrice': 277.8531, 'targetMedianPrice': 272.485, 'recommendationMean': 2.76596, 'recommendationKey': 'hold', 'numberOfAnalystOpinions': 42, 'totalCash': 33648001024, 'totalCashPerShare': 10.482, 'ebitda': 13244000256, 'totalDebt': 12782999552, 'quickRatio': 1.214, 'currentRatio': 1.844, 'totalRevenue': 97150001152, 'debtToEquity': 18.078, 'revenuePerShare': 30.457, 'returnOnAssets': 0.04759, 'returnOnEquity': 0.20389, 'freeCashflow': 676625024, 'operatingCashflow': 14478999552, 'earningsGrowth': 0.17, 'revenueGrowth': 0.078, 'grossMargins': 0.18229, 'ebitdaMargins': 0.13633001, 'operatingMargins': 0.107889995, 'financialCurrency': 'USD', 'trailingPegRatio': 13.3045}
+2024-12-19 00:16:46,174 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:16:46,174 - SequentialDataFetcher - DEBUG - Sending ticker prompt to GPT: Extract the stock ticker symbol from this question. If multiple companies are mentioned, identify the main one being asked about. If no specific ticker is mentioned but a company name is, provide its ticker. Only return the ticker symbol in capital letters, nothing else.
+
+Question: "Can you explain TSLA's recent performance?"
+
+2024-12-19 00:16:46,799 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:16:46,799 - SequentialDataFetcher - DEBUG - Verifying ticker TSLA with yfinance
+2024-12-19 00:16:46,799 - SequentialDataFetcher - DEBUG - Sending endpoints prompt to GPT: Given these financial data API endpoints:
+
+- yf_history: Get real-time and historical price data
+- yf_institutional_holders: Get institutional holders information
+- yf_recommendations: Get analyst recommendations
+- yf_calendar: Get earnings calendar and events
+- yf_info: Get company overview and key statistics
+- yf_major_holders: Get breakdown of major holders
+- yf_quarterly_financials: Get quarterly financial statements
+- av_OVERVIEW: Get company overview including description, sector, industry
+- av_INCOME_STATEMENT: Get annual and quarterly income statements
+- av_CASH_FLOW: Get cash flow statements
+
+For this user question: "Can you explain TSLA's recent performance?"
+
+Select the 3 most relevant API endpoints to answer this question effectively.
+Return only the endpoint names in a comma-separated list, no explanation needed.
+2024-12-19 00:16:47,424 - SequentialDataFetcher - INFO - GPT selected endpoints: ['yf_history', 'yf_recommendations', 'yf_quarterly_financials']
+2024-12-19 00:16:47,424 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_history and ticker TSLA
+2024-12-19 00:16:47,424 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_history
+2024-12-19 00:16:47,424 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: history
+2024-12-19 00:16:47,424 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_history
+2024-12-19 00:16:47,424 - SequentialDataFetcher - DEBUG - Data type received: <class 'method'>
+2024-12-19 00:16:47,927 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_recommendations and ticker TSLA
+2024-12-19 00:16:47,927 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_recommendations
+2024-12-19 00:16:47,927 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: recommendations
+2024-12-19 00:16:50,307 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_recommendations
+2024-12-19 00:16:50,307 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:16:50,307 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:16:50,307 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:16:50,307 - SequentialDataFetcher - DEBUG - DataFrame shape: (4, 6)
+2024-12-19 00:16:50,308 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 4 rows
+2024-12-19 00:16:50,813 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_quarterly_financials and ticker TSLA
+2024-12-19 00:16:50,813 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_quarterly_financials
+2024-12-19 00:16:50,813 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: quarterly_financials
+2024-12-19 00:16:51,387 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_quarterly_financials
+2024-12-19 00:16:51,387 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:16:51,387 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:16:51,387 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:16:51,387 - SequentialDataFetcher - DEBUG - DataFrame shape: (47, 7)
+2024-12-19 00:16:51,387 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 47 rows
+2024-12-19 00:18:09,839 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:18:09,840 - SequentialDataFetcher - DEBUG - Sending ticker prompt to GPT: Extract the stock ticker symbol from this question. If multiple companies are mentioned, identify the main one being asked about. If no specific ticker is mentioned but a company name is, provide its ticker. Only return the ticker symbol in capital letters, nothing else.
+
+Question: "Can you explain TSLA's recent performance?"
+
+2024-12-19 00:18:10,476 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:18:10,476 - SequentialDataFetcher - DEBUG - Verifying ticker TSLA with yfinance
+2024-12-19 00:18:10,476 - SequentialDataFetcher - DEBUG - Sending endpoints prompt to GPT: Given these financial data API endpoints:
+
+- yf_history: Get real-time and historical price data
+- yf_institutional_holders: Get institutional holders information
+- yf_recommendations: Get analyst recommendations
+- yf_calendar: Get earnings calendar and events
+- yf_info: Get company overview and key statistics
+- yf_major_holders: Get breakdown of major holders
+- yf_quarterly_financials: Get quarterly financial statements
+- av_OVERVIEW: Get company overview including description, sector, industry
+- av_INCOME_STATEMENT: Get annual and quarterly income statements
+- av_CASH_FLOW: Get cash flow statements
+
+For this user question: "Can you explain TSLA's recent performance?"
+
+Select the 3 most relevant API endpoints to answer this question effectively.
+Return only the endpoint names in a comma-separated list, no explanation needed.
+2024-12-19 00:18:11,060 - SequentialDataFetcher - INFO - GPT selected endpoints: ['yf_history', 'yf_recommendations', 'yf_quarterly_financials']
+2024-12-19 00:18:11,060 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_history and ticker TSLA
+2024-12-19 00:18:11,060 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_history
+2024-12-19 00:18:11,060 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: history
+2024-12-19 00:18:11,060 - SequentialDataFetcher - DEBUG - Data type received: <class 'method'>
+2024-12-19 00:18:13,406 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_history
+2024-12-19 00:18:13,406 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:18:13,406 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:18:13,406 - SequentialDataFetcher - DEBUG - DataFrame shape: (253, 7)
+2024-12-19 00:18:13,406 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 253 rows
+2024-12-19 00:18:13,912 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_recommendations and ticker TSLA
+2024-12-19 00:18:13,912 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_recommendations
+2024-12-19 00:18:13,912 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: recommendations
+2024-12-19 00:18:14,318 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:18:14,318 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_recommendations
+2024-12-19 00:18:14,318 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:18:14,318 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:18:14,318 - SequentialDataFetcher - DEBUG - DataFrame shape: (4, 6)
+2024-12-19 00:18:14,318 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 4 rows
+2024-12-19 00:18:14,823 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_quarterly_financials and ticker TSLA
+2024-12-19 00:18:14,823 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_quarterly_financials
+2024-12-19 00:18:14,823 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: quarterly_financials
+2024-12-19 00:18:15,323 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:18:15,323 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_quarterly_financials
+2024-12-19 00:18:15,324 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:18:15,324 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:18:15,324 - SequentialDataFetcher - DEBUG - DataFrame shape: (47, 7)
+2024-12-19 00:18:15,324 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 47 rows
+2024-12-19 00:18:43,487 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:18:43,487 - SequentialDataFetcher - DEBUG - Sending ticker prompt to GPT: Extract the stock ticker symbol from this question. If multiple companies are mentioned, identify the main one being asked about. If no specific ticker is mentioned but a company name is, provide its ticker. Only return the ticker symbol in capital letters, nothing else.
+
+Question: "Can you explain TSLA's recent performance?"
+
+2024-12-19 00:18:44,421 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:18:44,421 - SequentialDataFetcher - DEBUG - Verifying ticker TSLA with yfinance
+2024-12-19 00:18:44,421 - SequentialDataFetcher - DEBUG - Sending endpoints prompt to GPT: Given these financial data API endpoints:
+
+- yf_history: Get real-time and historical price data
+- yf_institutional_holders: Get institutional holders information
+- yf_recommendations: Get analyst recommendations
+- yf_calendar: Get earnings calendar and events
+- yf_info: Get company overview and key statistics
+- yf_major_holders: Get breakdown of major holders
+- yf_quarterly_financials: Get quarterly financial statements
+- av_OVERVIEW: Get company overview including description, sector, industry
+- av_INCOME_STATEMENT: Get annual and quarterly income statements
+- av_CASH_FLOW: Get cash flow statements
+
+For this user question: "Can you explain TSLA's recent performance?"
+
+Select the 10 most relevant API endpoints to answer this question effectively.
+Return only the endpoint names in a comma-separated list, no explanation needed.
+2024-12-19 00:18:45,210 - SequentialDataFetcher - INFO - GPT selected endpoints: ['yf_history', 'yf_recommendations', 'yf_calendar']
+2024-12-19 00:18:45,210 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_history and ticker TSLA
+2024-12-19 00:18:45,210 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_history
+2024-12-19 00:18:45,210 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: history
+2024-12-19 00:18:45,210 - SequentialDataFetcher - DEBUG - Data type received: <class 'method'>
+2024-12-19 00:18:47,390 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_history
+2024-12-19 00:18:47,390 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:18:47,390 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:18:47,390 - SequentialDataFetcher - DEBUG - DataFrame shape: (253, 7)
+2024-12-19 00:18:47,390 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 253 rows
+2024-12-19 00:18:47,894 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_recommendations and ticker TSLA
+2024-12-19 00:18:47,894 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_recommendations
+2024-12-19 00:18:47,894 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: recommendations
+2024-12-19 00:18:48,307 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:18:48,307 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_recommendations
+2024-12-19 00:18:48,307 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:18:48,307 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:18:48,307 - SequentialDataFetcher - DEBUG - DataFrame shape: (4, 6)
+2024-12-19 00:18:48,307 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 4 rows
+2024-12-19 00:18:48,810 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_calendar and ticker TSLA
+2024-12-19 00:18:48,811 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_calendar
+2024-12-19 00:18:48,811 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: calendar
+2024-12-19 00:18:49,332 - SequentialDataFetcher - DEBUG - Data type received: <class 'dict'>
+2024-12-19 00:18:49,332 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_calendar
+2024-12-19 00:19:14,903 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:19:14,904 - SequentialDataFetcher - DEBUG - Sending ticker prompt to GPT: Extract the stock ticker symbol from this question. If multiple companies are mentioned, identify the main one being asked about. If no specific ticker is mentioned but a company name is, provide its ticker. Only return the ticker symbol in capital letters, nothing else.
+
+Question: "Can you explain TSLA's recent performance?"
+
+2024-12-19 00:19:15,420 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:19:15,420 - SequentialDataFetcher - DEBUG - Verifying ticker TSLA with yfinance
+2024-12-19 00:19:15,420 - SequentialDataFetcher - DEBUG - Sending endpoints prompt to GPT: Given these financial data API endpoints:
+
+- yf_history: Get real-time and historical price data
+- yf_institutional_holders: Get institutional holders information
+- yf_recommendations: Get analyst recommendations
+- yf_calendar: Get earnings calendar and events
+- yf_info: Get company overview and key statistics
+- yf_major_holders: Get breakdown of major holders
+- yf_quarterly_financials: Get quarterly financial statements
+- av_OVERVIEW: Get company overview including description, sector, industry
+- av_INCOME_STATEMENT: Get annual and quarterly income statements
+- av_CASH_FLOW: Get cash flow statements
+
+For this user question: "Can you explain TSLA's recent performance?"
+
+Select the 10 most relevant API endpoints to answer this question effectively.
+Return only the endpoint names in a comma-separated list, no explanation needed.
+2024-12-19 00:19:16,220 - SequentialDataFetcher - INFO - GPT selected endpoints: ['yf_history', 'yf_recommendations', 'yf_calendar']
+2024-12-19 00:19:16,220 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_history and ticker TSLA
+2024-12-19 00:19:16,220 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_history
+2024-12-19 00:19:16,220 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: history
+2024-12-19 00:19:16,220 - SequentialDataFetcher - DEBUG - Data type received: <class 'method'>
+2024-12-19 00:19:18,567 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_history
+2024-12-19 00:19:18,567 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:19:18,567 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:19:18,567 - SequentialDataFetcher - DEBUG - DataFrame shape: (253, 7)
+2024-12-19 00:19:18,567 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 253 rows
+2024-12-19 00:19:19,072 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_recommendations and ticker TSLA
+2024-12-19 00:19:19,073 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_recommendations
+2024-12-19 00:19:19,073 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: recommendations
+2024-12-19 00:19:19,408 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:19:19,408 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_recommendations
+2024-12-19 00:19:19,408 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:19:19,408 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:19:19,408 - SequentialDataFetcher - DEBUG - DataFrame shape: (4, 6)
+2024-12-19 00:19:19,408 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 4 rows
+2024-12-19 00:19:19,909 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_calendar and ticker TSLA
+2024-12-19 00:19:19,909 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_calendar
+2024-12-19 00:19:19,909 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: calendar
+2024-12-19 00:19:20,249 - SequentialDataFetcher - DEBUG - Data type received: <class 'dict'>
+2024-12-19 00:19:20,250 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_calendar
+2024-12-19 00:19:20,755 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_info and ticker TSLA
+2024-12-19 00:19:20,755 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_info
+2024-12-19 00:19:20,755 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: info
+2024-12-19 00:19:21,663 - SequentialDataFetcher - DEBUG - Data type received: <class 'dict'>
+2024-12-19 00:19:21,663 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_info
+2024-12-19 00:19:22,168 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_major_holders and ticker TSLA
+2024-12-19 00:19:22,169 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_major_holders
+2024-12-19 00:19:22,169 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: major_holders
+2024-12-19 00:19:22,688 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:19:22,688 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_major_holders
+2024-12-19 00:19:22,688 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:19:22,688 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:19:22,688 - SequentialDataFetcher - DEBUG - DataFrame shape: (4, 1)
+2024-12-19 00:19:22,688 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 4 rows
+2024-12-19 00:19:23,194 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_quarterly_financials and ticker TSLA
+2024-12-19 00:19:23,194 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_quarterly_financials
+2024-12-19 00:19:23,194 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: quarterly_financials
+2024-12-19 00:19:23,639 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:19:23,640 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_quarterly_financials
+2024-12-19 00:19:23,640 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:19:23,640 - SequentialDataFetcher - DEBUG - Starting DataFrame formatting
+2024-12-19 00:19:23,640 - SequentialDataFetcher - DEBUG - DataFrame shape: (47, 7)
+2024-12-19 00:19:23,640 - SequentialDataFetcher - DEBUG - Successfully formatted DataFrame with 47 rows
+2024-12-19 00:19:24,144 - SequentialDataFetcher - INFO - Fetching data for endpoint av_OVERVIEW and ticker TSLA
+2024-12-19 00:19:24,144 - SequentialDataFetcher - DEBUG - Using Alpha Vantage endpoint: av_OVERVIEW
+2024-12-19 00:19:24,144 - SequentialDataFetcher - DEBUG - Making request to Alpha Vantage: https://www.alphavantage.co/query with params (excluding apikey): OVERVIEW, TSLA
+2024-12-19 00:19:25,100 - SequentialDataFetcher - INFO - Successfully fetched Alpha Vantage data for av_OVERVIEW
+2024-12-19 00:27:32,788 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:27:33,407 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:27:33,407 - SequentialDataFetcher - DEBUG - Fetching overview for ticker: TSLA
+2024-12-19 00:27:53,589 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: can you tell me more using stock data
+2024-12-19 00:27:54,273 - SequentialDataFetcher - INFO - GPT detected ticker: There is no specific company mentioned in the question,
+2024-12-19 00:27:54,273 - SequentialDataFetcher - DEBUG - Fetching overview for ticker: There is no specific company mentioned in the question,
+2024-12-19 00:35:51,267 - SequentialDataFetcher - DEBUG - Starting ticker detection for question: Can you explain TSLA's recent performance?
+2024-12-19 00:35:52,004 - SequentialDataFetcher - INFO - GPT detected ticker: TSLA
+2024-12-19 00:35:52,004 - SequentialDataFetcher - DEBUG - Fetching overview for ticker: TSLA
+2024-12-19 00:35:56,760 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_quarterly_financials and ticker TSLA
+2024-12-19 00:35:56,760 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_quarterly_financials
+2024-12-19 00:35:56,760 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: quarterly_financials
+2024-12-19 00:35:59,079 - SequentialDataFetcher - DEBUG - Data type received: <class 'pandas.core.frame.DataFrame'>
+2024-12-19 00:35:59,079 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_quarterly_financials
+2024-12-19 00:35:59,080 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:35:59,080 - SequentialDataFetcher - ERROR - Error fetching data for endpoint yf_quarterly_financials: 'SequentialDataFetcher' object has no attribute 'format_dataframe'
+2024-12-19 00:35:59,080 - SequentialDataFetcher - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "/Users/taehyun/Downloads/softly/financial-chatbot/backend/app.py", line 216, in fetch_data_for_endpoint
+    formatted_data = self.format_dataframe(data)
+                     ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SequentialDataFetcher' object has no attribute 'format_dataframe'
+2024-12-19 00:35:59,586 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_calendar and ticker TSLA
+2024-12-19 00:35:59,586 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_calendar
+2024-12-19 00:35:59,586 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: calendar
+2024-12-19 00:35:59,994 - SequentialDataFetcher - DEBUG - Data type received: <class 'dict'>
+2024-12-19 00:35:59,994 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_calendar
+2024-12-19 00:36:00,499 - SequentialDataFetcher - INFO - Fetching data for endpoint yf_history and ticker TSLA
+2024-12-19 00:36:00,499 - SequentialDataFetcher - DEBUG - Using Yahoo Finance endpoint: yf_history
+2024-12-19 00:36:00,499 - SequentialDataFetcher - DEBUG - Accessing yfinance attribute: history
+2024-12-19 00:36:00,499 - SequentialDataFetcher - DEBUG - Data type received: <class 'method'>
+2024-12-19 00:36:00,929 - SequentialDataFetcher - INFO - Successfully fetched Yahoo Finance data for yf_history
+2024-12-19 00:36:00,929 - SequentialDataFetcher - DEBUG - Converting DataFrame to dictionary format
+2024-12-19 00:36:00,929 - SequentialDataFetcher - ERROR - Error fetching data for endpoint yf_history: 'SequentialDataFetcher' object has no attribute 'format_dataframe'
+2024-12-19 00:36:00,929 - SequentialDataFetcher - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "/Users/taehyun/Downloads/softly/financial-chatbot/backend/app.py", line 216, in fetch_data_for_endpoint
+    formatted_data = self.format_dataframe(data)
+                     ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SequentialDataFetcher' object has no attribute 'format_dataframe'

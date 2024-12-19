@@ -1,0 +1,118 @@
+import yfinance as yf
+import requests
+from dotenv import load_dotenv
+import os
+import pandas as pd
+from pprint import pformat
+from typing import Any
+
+load_dotenv()
+
+
+def show_financial_statement_structure(data, statement_type):
+    """Show a concise view of financial statement data"""
+    print(f"\n{statement_type}")
+    print("-" * 50)
+
+    # Show available report types
+    print("Available Report Types:")
+    for key in data.keys():
+        print(f"- {key}")
+
+    # Show structure of one annual report as example
+    if "annualReports" in data and data["annualReports"]:
+        print("\nSample Annual Report Structure:")
+        # Get first report's keys
+        sample_keys = list(data["annualReports"][0].keys())
+        print("Fields available:", sample_keys)
+
+        # Show sample of first report with limited fields
+        print("\nSample Data (most recent annual report):")
+        important_fields = ["fiscalDateEnding", "reportedCurrency"]
+        if statement_type == "Income Statement":
+            important_fields.extend(["totalRevenue", "grossProfit", "netIncome"])
+        else:  # Cash Flow
+            important_fields.extend(
+                ["operatingCashflow", "cashflowFromInvestment", "cashflowFromFinancing"]
+            )
+
+        sample_data = {k: data["annualReports"][0][k] for k in important_fields}
+        print(pformat(sample_data, indent=2))
+
+
+def show_sample(name: str, data: Any):
+    """Display a limited sample of the data with its type"""
+    print(f"\n{name}")
+    print("-" * 50)
+
+    if isinstance(data, pd.DataFrame):
+        print(f"Type: DataFrame")
+        print(f"Shape: {data.shape}")
+        print(f"Columns: {list(data.columns)}")
+        print("\nFirst 3 rows:")
+        print(data.head(3).to_string())
+
+    elif isinstance(data, dict):
+        print(f"Type: Dictionary")
+        print("First few key-value pairs:")
+        sample = dict(list(data.items())[:5])  # First 5 items
+        print(pformat(sample, indent=2))
+
+    elif isinstance(data, list):
+        print(f"Type: List (Length: {len(data)})")
+        print("First item sample:")
+        print(pformat(data[0] if data else "Empty list", indent=2))
+
+    else:
+        print(f"Type: {type(data).__name__}")
+        print(f"Value: {str(data)[:200]}")  # First 200 chars if string
+
+
+def main():
+    # Initialize
+    stock = yf.Ticker("GOOGL")
+    av_api_key = os.getenv("ALPHAVANTAGE_API_KEY")
+
+    print("TESLA STOCK DATA SAMPLES")
+    print("=" * 50)
+
+    # # Recommendations
+    # recommendations = stock.recommendations
+    # show_sample("3. stock.recommendations", recommendations)
+
+    # # Calendar
+    # calendar = stock.calendar
+    # show_sample("4. stock.calendar", calendar)
+
+    # # Info
+    # info = stock.info
+    # show_sample("5. stock.info", info)
+
+    # # Major Holders
+    # major_holders = stock.major_holders
+    # show_sample("6. stock.major_holders", major_holders)
+
+    # # Quarterly Financials
+    # financials = stock.quarterly_financials
+    # show_sample("7. stock.quarterly_financials", financials)
+
+    # # Alpha Vantage Endpoints
+    # print("\nALPHA VANTAGE ENDPOINTS")
+
+    # # Company Overview
+    # overview_url = f"https://www.alphavantage.co/query?function=OVERVIEW&symbol={ticker}&apikey={av_api_key}"
+    # overview = requests.get(overview_url).json()
+    # show_sample("1. Company Overview", overview)
+
+    # income_url = f"https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA&apikey={av_api_key}"
+    # income = requests.get(income_url).json()
+    # show_financial_statement_structure(income, "Income Statement")
+
+    # Cash Flow
+    cash_flow_url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=GOOGL&apikey={av_api_key}"
+    cash_flow = requests.get(cash_flow_url).json()
+    print(cash_flow)
+
+
+if __name__ == "__main__":
+    main()
