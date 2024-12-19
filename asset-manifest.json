@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/financial-chatbot/static/css/main.9fecc6ac.css",
-    "main.js": "/financial-chatbot/static/js/main.4881ba1e.js",
-    "index.html": "/financial-chatbot/index.html",
-    "main.9fecc6ac.css.map": "/financial-chatbot/static/css/main.9fecc6ac.css.map",
-    "main.4881ba1e.js.map": "/financial-chatbot/static/js/main.4881ba1e.js.map"
+    "main.css": "/SoftlyAi/static/css/main.9fecc6ac.css",
+    "main.js": "/SoftlyAi/static/js/main.4881ba1e.js",
+    "index.html": "/SoftlyAi/index.html",
+    "main.9fecc6ac.css.map": "/SoftlyAi/static/css/main.9fecc6ac.css.map",
+    "main.4881ba1e.js.map": "/SoftlyAi/static/js/main.4881ba1e.js.map"
   },
   "entrypoints": [
     "static/css/main.9fecc6ac.css",
