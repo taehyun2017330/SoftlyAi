@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SoftlyAi/static/css/main.9fecc6ac.css",
-    "main.js": "/SoftlyAi/static/js/main.eedd491f.js",
+    "main.js": "/SoftlyAi/static/js/main.2c4c4fd6.js",
     "index.html": "/SoftlyAi/index.html",
     "main.9fecc6ac.css.map": "/SoftlyAi/static/css/main.9fecc6ac.css.map",
-    "main.eedd491f.js.map": "/SoftlyAi/static/js/main.eedd491f.js.map"
+    "main.2c4c4fd6.js.map": "/SoftlyAi/static/js/main.2c4c4fd6.js.map"
   },
   "entrypoints": [
     "static/css/main.9fecc6ac.css",
-    "static/js/main.eedd491f.js"
+    "static/js/main.2c4c4fd6.js"
   ]
 }
