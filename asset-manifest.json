@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/financial-chatbot/static/css/main.9fecc6ac.css",
+    "main.js": "/financial-chatbot/static/js/main.4881ba1e.js",
+    "index.html": "/financial-chatbot/index.html",
+    "main.9fecc6ac.css.map": "/financial-chatbot/static/css/main.9fecc6ac.css.map",
+    "main.4881ba1e.js.map": "/financial-chatbot/static/js/main.4881ba1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fecc6ac.css",
+    "static/js/main.4881ba1e.js"
+  ]
+}
