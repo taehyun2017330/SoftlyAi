@@ -1,0 +1,59 @@
+{
+  "groupName": "highly",
+  "papers": [
+    {
+      "title": "Visualizing Data Using t-SNE",
+      "authors": "Van der Maaten, Hinton",
+      "publication": "JMLR 2008",
+      "doi": ""
+    },
+    {
+      "title": "Accelerating t-SNE Using Tree-Based Algorithms",
+      "authors": "Van der Maaten",
+      "publication": "JMLR 2014",
+      "doi": ""
+    },
+    {
+      "title": "How to Use t-SNE Effectively",
+      "authors": "Wattenberg et al.",
+      "publication": "Distill 2016",
+      "doi": "10.23915/distill.00002"
+    },
+    {
+      "title": "Uniform Manifold Approximation and Projection",
+      "authors": "Healy, McInnes",
+      "publication": "NRMP 2024",
+      "doi": "10.1038/s43586-024-00363-x "
+    },
+    {
+      "title": "A Global Geometric Framework for Nonlinear Dimensionality Reduction",
+      "authors": "Tenenbaum et al.",
+      "publication": "Science 2000",
+      "doi": "10.1126/science.290.5500.2319"
+    },
+    {
+      "title": "Reducing the Dimensionality of Data with Neural Networks",
+      "authors": "Hinton, Salakhutdinov",
+      "publication": "Science 2006",
+      "doi": "10.1126/science.1127647"
+    },
+    {
+      "title": "Nonlinear Dimensionality Reduction by Locally Linear Embedding",
+      "authors": "Roweis, Saul",
+      "publication": "Science 2000",
+      "doi": "10.1126/science.290.5500.2323"
+    },
+    {
+      "title": "Principal Component Analysis",
+      "authors": "Greenacre et al.",
+      "publication": "NRMP 2022",
+      "doi": "10.1007/0-387-22440-8_7"
+    },
+    {
+      "title": "Mapping a Manifold of Perceptual Observations",
+      "authors": "Tenenbaum",
+      "publication": "NeurIPS 1997",
+      "doi": ""
+    }
+  ]
+}

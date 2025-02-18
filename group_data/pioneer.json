@@ -1,0 +1,293 @@
+{
+  "groupName": "Pioneer",
+  "papers": [
+    {
+      "title": "Multidimensional Projection with Radial Basis Function and Control Points Selection",
+      "authors": "Amorim et al.",
+      "publication": "PacificVis 2014",
+      "doi": "10.1109/pacificvis.2014.59"
+    },
+    {
+      "title": "Linear Discriminative Star Coordinates for Exploring Class and Cluster Separation Of High Dimensional Data",
+      "authors": "Wang et al.",
+      "publication": "CGF 2017",
+      "doi": "10.1111/cgf.13197"
+    },
+    {
+      "title": "Multi-perspective, Simultaneous Embedding",
+      "authors": "Hossain et al.",
+      "publication": "TVCG 2021",
+      "doi": "10.1109/tvcg.2020.3030373"
+    },
+    {
+      "title": "Radviz and Identification Of Clusters in Multidimensional Data",
+      "authors": "Novakova and Stepankova",
+      "publication": "IVIS 2009",
+      "doi": "10.1109/iv.2009.103"
+    },
+    {
+      "title": "Steering Distortions to Preserve Classes and Neighbors in Supervised Dimensionality Reduction",
+      "authors": "Colange et al.",
+      "publication": "NeurIPS 2020",
+      "doi": "10.14428/esann/2022.es2022-26"
+    },
+    {
+      "title": "Dimension Reconstruction for Visual Exploration Of Subspace Clusters in High-dimensional Data",
+      "authors": "Zhou et al.",
+      "publication": "PacificVis 2016",
+      "doi": "10.1109/pacificvis.2016.7465260"
+    },
+    {
+      "title": "Least Square Projection: a Fast High-precision Multidimensional Projection Technique and Its Application to Document Mapping",
+      "authors": "Paulovich et al.",
+      "publication": "TVCG 2008",
+      "doi": "10.1109/tvcg.2007.70443"
+    },
+    {
+      "title": "Visualization Of Labeled Data Using Linear Transformations",
+      "authors": "Koren and Carmel",
+      "publication": "INFOVIS 2003",
+      "doi": "10.1109/infvis.2003.1249017"
+    },
+    {
+      "title": "Hinted Star Coordinates for Mixed Data",
+      "authors": "Matute and  linsen.",
+      "publication": "CGF 2020",
+      "doi": "10.1111/cgf.13666"
+    },
+    {
+      "title": "Exploratory Projection Pursuit",
+      "authors": "Friedman",
+      "publication": "JASA 1987",
+      "doi": "https://doi.org/10.48550/arXiv.1706.04371"
+    },
+    {
+      "title": "Supervised Nonlinear Dimensionality Reduction for Visualization and Classification",
+      "authors": "Geng et al.",
+      "publication": "TSMC 2005",
+      "doi": "10.1016/j.patcog.2013.07.022"
+    },
+    {
+      "title": "Two-stage Framework for Visualization Of Clustered High Dimensional Data",
+      "authors": "Choo et al.",
+      "publication": "VAST 2009",
+      "doi": "10.1109/vast.2009.5332629"
+    },
+    {
+      "title": "A Structure-based Distance Metric for High-dimensional Space Exploration with Multidimensional Scaling",
+      "authors": "Lee et al.",
+      "publication": "TVCG 2014",
+      "doi": "10.1109/tvcg.2013.101"
+    },
+    {
+      "title": "Solarview: Low Distortion Radial Embedding with a Focus",
+      "authors": "Castermans et al.",
+      "publication": "TVCG 2019",
+      "doi": "10.1109/tvcg.2018.2865361"
+    },
+    {
+      "title": "Orthographic Star Coordinates",
+      "authors": "Lehmann and Theisel",
+      "publication": "TVCG 2013",
+      "doi": "10.1109/tvcg.2013.182"
+    },
+    {
+      "title": "Uniform Manifold Approximation with Two-phase Optimization",
+      "authors": "Jeon et al.",
+      "publication": "VIS 2022",
+      "doi": "10.1109/vis54862.2022.00025"
+    },
+    {
+      "title": "Dd-hds: a Method for Visualization and Exploration Of High-dimensional Data",
+      "authors": "Lespinats et al.",
+      "publication": "TNN 2007",
+      "doi": "10.1109/tnn.2007.891682"
+    },
+    {
+      "title": "Radviz++: Improvements on Radial-based Visualizations",
+      "authors": "Pagliosa and Telea",
+      "publication": "Informatics 2019",
+      "doi": "10.3390/informatics6020016"
+    },
+    {
+      "title": "Hct-sne: Hierarchical Constraints with T-sne",
+      "authors": "Vu et al.",
+      "publication": "IJCNN 2021",
+      "doi": "10.1109/ijcnn52387.2021.9534470"
+    },
+    {
+      "title": "A Perception-driven Approach to Supervised Dimensionality Reduction for Visualization",
+      "authors": "Wang et al.",
+      "publication": "TVCG 2018",
+      "doi": "10.1007/978-3-030-81026-9_6"
+    },
+    {
+      "title": "Loch: a Neighborhood-based Multidimensional Projection Technique for Highdimensional Sparse Spaces",
+      "authors": "Fadel et al.",
+      "publication": "Neurocomp 2015",
+      "doi": "10.1016/j.neucom.2014.07.071"
+    },
+    {
+      "title": "Class-constrained T-sne: Combining Data Features and Class Probabilities",
+      "authors": "Meng et al.",
+      "publication": "TVCG 2024",
+      "doi": "10.1109/TVCG.2023.3326600"
+    },
+    {
+      "title": "Spanning Trees As Approximation Of Data Structures",
+      "authors": "Alcaide and Aerts",
+      "publication": "TVCG 2021",
+      "doi": "10.1007/978-3-540-77978-0_11"
+    },
+    {
+      "title": "Density-preserving Data Visualization Unveils Dynamic Patterns Of Single-cell Transcriptomic Variability",
+      "authors": "Narayan et al.",
+      "publication": "bioRxiv 2020",
+      "doi": "10.1101/2020.05.12.077776"
+    },
+    {
+      "title": "Class-aware T-sne: Cat-sne",
+      "authors": "De bodt et al.",
+      "publication": "ESANN 2019",
+      "doi": "10.5270/esa-pmm029n"
+    },
+    {
+      "title": "A New Supervised T-sne with Dissimilarity Measure for Effective Data Visualization and Classification",
+      "authors": "Hajderanj et al.",
+      "publication": "ICSIE 2019",
+      "doi": "10.1145/3328833.3328853"
+    },
+    {
+      "title": "Shape-preserving Star Coordinates",
+      "authors": "Molchanov and Linsen",
+      "publication": "TVCG 2019",
+      "doi": "10.1109/pacificvis48177.2020.8199"
+    },
+    {
+      "title": "Global Versus Local Methods in Nonlinear Dimensionality Reduction",
+      "authors": "De silva and Tenenbaum",
+      "publication": "NeurIPS 2002",
+      "doi": "10.1016/j.neucom.2009.01.006"
+    },
+    {
+      "title": "Nonlinear Dimensionality Reduction by Locally Linear Embedding",
+      "authors": "Roweis and Saul",
+      "publication": "Science 2000",
+      "doi": "10.1126/science.290.5500.2323"
+    },
+    {
+      "title": "A Projection Pursuit Algorithm for Exploratory Data Analysis",
+      "authors": "Friedman and Tukey",
+      "publication": "TC 1974",
+      "doi": "10.32614/cran.package.cepp"
+    },
+    {
+      "title": "A Global Geometric Framework for Nonlinear Dimensionality Reduction",
+      "authors": "Tenenbaum et al.",
+      "publication": "Science 2000",
+      "doi": "10.1126/science.290.5500.2319"
+    },
+    {
+      "title": "Information Retrieval Perspective to Nonlinear Dimensionality Reduction for Data Visualization",
+      "authors": "Venna et al.",
+      "publication": "JMLR 2010",
+      "doi": "10.1201/9781003190554-1"
+    },
+    {
+      "title": "Shift-invariant Similarities Circumvent Distance Concentration in Stochastic Neighbor Embedding and Variants",
+      "authors": "Lee and Verleysen",
+      "publication": "PCS 2011",
+      "doi": "10.1016/j.procs.2011.04.056"
+    },
+    {
+      "title": "Comparing and Exploring High-dimensional Data with Dimensionality Reduction Algorithms and Matrix Visualizations",
+      "authors": "Cutura et al.",
+      "publication": "AVI 2020",
+      "doi": "10.1145/3399715.3399875"
+    },
+    {
+      "title": "Observation-level Interaction with Statistical Models for Visual Analytics",
+      "authors": "Endert et al.",
+      "publication": "VAST 2011",
+      "doi": "10.1109/vast.2011.6102449"
+    },
+    {
+      "title": "Visual Exploration Of High-dimensional Data Through Subspace Analysis and Dynamic Projections",
+      "authors": "Liu et al.",
+      "publication": "CGF 2015",
+      "doi": "10.1111/cgf.12639"
+    },
+    {
+      "title": "Pattern Trails: Visual Analysis Of Pattern Transitions in Subspaces",
+      "authors": "Jackle et al.",
+      "publication": "VAST 2017",
+      "doi": "10.1109/vast.2017.8585613"
+    },
+    {
+      "title": "Visual Exploration Of Semantic Relationships in Neural Word Embeddings",
+      "authors": "Liu et al.",
+      "publication": "TVCG 2018",
+      "doi": "10.33965/icwi2020_202012c020"
+    },
+    {
+      "title": "Implicit Multidimensional Projection Of Local Subspaces",
+      "authors": "Bian et al.",
+      "publication": "TVCG 2021",
+      "doi": "10.2172/5065610"
+    },
+    {
+      "title": "Extending Dimensions in Radviz Based on Mean Shift",
+      "authors": "Zhou et al.",
+      "publication": "PacificVis 2015",
+      "doi": "10.1109/pacificvis.2015.7156365"
+    },
+    {
+      "title": "Ilamp: Exploring High-dimensional Spacing Through Backward Multidimensional Projection",
+      "authors": "Dos santos amorim et al.",
+      "publication": "VAST 2012",
+      "doi": "10.1109/vast.2012.6400489"
+    },
+    {
+      "title": "Axis Calibration for Improving Data Attribute Estimation in Star Coordinates Plots",
+      "authors": "Rubio-sanchez and Sanchez",
+      "publication": "TVCG 2014",
+      "doi": "10.1109/tvcg.2014.2346258"
+    },
+    {
+      "title": "Explainers: Expert Explorations with Crafted Projections",
+      "authors": "Gleicher",
+      "publication": "TVCG 2013",
+      "doi": "10.1109/tvcg.2013.157"
+    },
+    {
+      "title": "Exploring High-dimensional Data Through Locally Enhanced Projections",
+      "authors": "Lai et al.",
+      "publication": "VLC 2018",
+      "doi": "10.1016/j.jvlc.2018.08.006"
+    },
+    {
+      "title": "Fast, Visual and Interactive Semisupervised Dimensionality Reduction",
+      "authors": "Spathis et al.",
+      "publication": "ECCV 2018",
+      "doi": "10.4018/9781609601027.ch004"
+    },
+    {
+      "title": "Interactive Visual Cluster Analysis by Contrastive Dimensionality Reduction",
+      "authors": "Xia et al.",
+      "publication": "TVCG 2023",
+      "doi": "10.1109/tvcg.2022.3209423"
+    },
+    {
+      "title": "Piece Wise Laplacian-based Projection for Interactive Data Exploration and Organization",
+      "authors": "Paulovich et al.",
+      "publication": "CGF 2011",
+      "doi": "10.1111/j.1467-8659.2011.01958.x"
+    },
+    {
+      "title": "Local Affine Multidimensional Projection",
+      "authors": "Joia et al.",
+      "publication": "TVCG 2011",
+      "doi": "10.1109/tvcg.2011.220"
+    }
+  ]
+}

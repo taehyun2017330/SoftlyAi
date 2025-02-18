@@ -1,0 +1,107 @@
+{
+  "groupName": "Judge",
+  "papers": [
+    {
+      "title": "Zadu: a Python Library for Evaluating the Reliability Of Dimensionality Reduction Embeddings",
+      "authors": "Jeon et al.",
+      "publication": "VIS 2023",
+      "doi": "10.1109/vis54172.2023.00048"
+    },
+    {
+      "title": "Using Multiple Attribute-based Explanations Of Multidimensional Projections to Explore High-dimensional Data",
+      "authors": "Tian et al.",
+      "publication": "CG 2021",
+      "doi": "10.1016/j.cag.2021.04.034"
+    },
+    {
+      "title": "Selecting Good Views Of High-dimensional Data Using Class Consistency",
+      "authors": "Sips et al.",
+      "publication": "CGF 2009",
+      "doi": "10.1111/j.1467-8659.2009.01467.x"
+    },
+    {
+      "title": "Vizrank: Data Visualization Guided by Machine Learning",
+      "authors": "Leban et al.",
+      "publication": "DMKD 2006",
+      "doi": "10.1007/s10618-005-0031-5"
+    },
+    {
+      "title": "Graph-based Measures to Assist User Assessment Of Multidimensional Projections",
+      "authors": "Motta et al.",
+      "publication": "Neurocomp 2015",
+      "doi": "10.1016/j.neucom.2014.09.063"
+    },
+    {
+      "title": "Agreement Analysis Of Quality Measures for Dimensionality Reduction",
+      "authors": "Rieck and Leitte",
+      "publication": "TMDAV 2017",
+      "doi": "10.1007/978-3-319-44684-4_6"
+    },
+    {
+      "title": "Persistent Homology for the Evaluation Of Dimensionality Reduction Schemes",
+      "authors": "Rieck et al.",
+      "publication": "CGF 2015",
+      "doi": "10.1111/cgf.12655"
+    },
+    {
+      "title": "Scale-independent Quality Criteria for Dimensionality Reduction",
+      "authors": "Lee and Verleysen",
+      "publication": "PRL 2010",
+      "doi": "10.1016/j.patrec.2010.04.013"
+    },
+    {
+      "title": "Perception-based Visual Quality Measures",
+      "authors": "Albuquerque et al.",
+      "publication": "VAST 2011",
+      "doi": "10.1109/vast.2011.6102437"
+    },
+    {
+      "title": "Effectiveness Error: Measuring and Improving Radviz Visual Effectiveness",
+      "authors": "Angelini et al.",
+      "publication": "TVCG 2022",
+      "doi": "10.1109/tvcg.2021.3104879"
+    },
+    {
+      "title": "Measuring and Explaining the Inter-cluster Reliability Of Multidimensional Projections",
+      "authors": "Jeon et al.",
+      "publication": "TVCG 2021",
+      "doi": "10.1109/tvcg.2021.3114833"
+    },
+    {
+      "title": "Multidimensional Scaling by Optimizing Goodness Of Fit to a Nonmetric Hypothesis",
+      "authors": "Kruskal",
+      "publication": "Psycho 1964",
+      "doi": "10.1007/bf02289565"
+    },
+    {
+      "title": "Sanity Check for Class-coloring-based Evaluation Of Dimension Reduction Techniques",
+      "authors": "Aupetit",
+      "publication": "BELIV 2014",
+      "doi": "10.1145/2669557.2669578"
+    },
+    {
+      "title": "Classes Are Not Clusters: Improving Label-based Evaluation Of Dimensionality Reduction",
+      "authors": "Jeon et al.",
+      "publication": "TVCG 2024",
+      "doi": "10.1109/tvcg.2023.3327187"
+    },
+    {
+      "title": "Interpreting High-dimensional Projections with Capacity",
+      "authors": "Zhang et al.",
+      "publication": "TVCG 2023",
+      "doi": "10.1109/tvcg.2023.3324851/mm1"
+    },
+    {
+      "title": "Interactive Dimensionality Reduction Through User-defined Combinations Of Quality Metrics",
+      "authors": "Johansson and Johansson",
+      "publication": "TVCG 2009",
+      "doi": "10.1109/tvcg.2009.153"
+    },
+    {
+      "title": "Improving the Visual Analysis Of High-dimensional Datasets Using Quality Measures",
+      "authors": "Albuquerque et al.",
+      "publication": "VAST 2010",
+      "doi": "10.1109/vast.2010.5652433"
+    }
+  ]
+}

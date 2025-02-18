@@ -1,0 +1,137 @@
+{
+  "groupName": "Instructor",
+  "papers": [
+    {
+      "title": "Empirical Guidance on Scatterplot and Dimension Reduction Technique Choices",
+      "authors": "Sedlmair et al.",
+      "publication": "TVCG 2013",
+      "doi": "10.1109/tvcg.2013.153"
+    },
+    {
+      "title": "Local Multidimensional Scaling",
+      "authors": "Venna and Kaski",
+      "publication": "NN 2006",
+      "doi": "10.1007/0-387-28981-x_13"
+    },
+    {
+      "title": "Stability Comparison Of Dimensionality Reduction Techniques Attending to Data and Parameter Variations",
+      "authors": "García fernández et al.",
+      "publication": "VAMP 2013",
+      "doi": "10.32614/cran.package.logisticpca"
+    },
+    {
+      "title": "A Survey Of Dimensionality Reduction Techniques Based on Random Projection",
+      "authors": "Xie et al.",
+      "publication": "arXiv 2017",
+      "doi": "10.31235/osf.io/36neu"
+    },
+    {
+      "title": "Initialization Is Critical for Preserving Global Data Structure in Both T-sne and Umap",
+      "authors": "Kobak and Linderman",
+      "publication": "NB 2021",
+      "doi": "10.1038/s41587-020-00809-z"
+    },
+    {
+      "title": "A Comparative User Study Of Visualization Techniques for Cluster Analysis Of Multidimensional Data Sets",
+      "authors": "Ventocilla and Riveiro",
+      "publication": "IVIS 2020",
+      "doi": "10.1177/1473871620922166"
+    },
+    {
+      "title": "Revisiting Dimensionality Reduction Techniques for Visual Cluster Analysis: an Empirical Study",
+      "authors": "Xia et al.",
+      "publication": "TVCG 2022",
+      "doi": "10.1109/tvcg.2021.3114694"
+    },
+    {
+      "title": "Multidimensional Projection for Visual Analytics: Linking Techniques with Distortions, Tasks, and Layout Enrichment",
+      "authors": "Nonato and Aupetit",
+      "publication": "TVCG 2019",
+      "doi": "10.1109/tvcg.2018.2846735"
+    },
+    {
+      "title": "Linear Dimensionality Reduction: Survey, Insights, and Generalizations",
+      "authors": "Cunningham and Ghahramani",
+      "publication": "JMLR 2015",
+      "doi": "10.1201/b16252-9"
+    },
+    {
+      "title": "A Survey Of Dimension Reduction Methods for High-dimensional Data Analysis and Visualization",
+      "authors": "Engel et al.",
+      "publication": "IRTG 2012",
+      "doi": "10.1117/12.2257896.5427848128001"
+    },
+    {
+      "title": "A Survey Of Dimensionality Reduction Techniques",
+      "authors": "Sorzano et al.",
+      "publication": "arXiv 2014",
+      "doi": "10.32614/cran.package.logisticpca"
+    },
+    {
+      "title": "Data Visualization by Nonlinear Dimensionality Reduction",
+      "authors": "Gisbrecht and Hammer",
+      "publication": "dmkd 2015",
+      "doi": "10.1201/9781003190554-1"
+    },
+    {
+      "title": "Toward a Quantitative Survey Of Dimension Reduction Techniques",
+      "authors": "Espadoto et al.",
+      "publication": "TVCG 2021",
+      "doi": "10.2172/15002155"
+    },
+    {
+      "title": "Viscoder: a Tool for Visually Comparing Dimensionality Reduction Algorithms",
+      "authors": "Cutura et al.",
+      "publication": "ESANN 2018",
+      "doi": "10.1201/b16017-12"
+    },
+    {
+      "title": "Large-scale Evaluation Of Topic Models and Dimensionality Reduction Methods for 2d Text Spatialization",
+      "authors": "Atzberger et al.",
+      "publication": "TVCG 2024",
+      "doi": "10.1109/tvcg.2023.3326569/mm1"
+    },
+    {
+      "title": "Dimensionality Reduction: a Comparative Review",
+      "authors": "Van der maaten and Postma",
+      "publication": "JMLR 2009",
+      "doi": "10.1201/9781003190554-14"
+    },
+    {
+      "title": "A Comparative Study Between Radviz and Star Coordinates",
+      "authors": "Rubio-sánchez et al.",
+      "publication": "TVCG 2016",
+      "doi": "10.1109/tvcg.2015.2467324"
+    },
+    {
+      "title": "Quality Assessment Of Dimensionality Reduction: Rank-based Criteria",
+      "authors": "Lee and  verleysen",
+      "publication": "Neurocomp 2009",
+      "doi": "10.1016/j.neucom.2008.12.017"
+    },
+    {
+      "title": "Spectral Overlap and a Comparison Of Parameter-free, Dimensionality Reduction Quality Metrics",
+      "authors": "Johannemann and Tibshirani",
+      "publication": "arXiv 2019",
+      "doi": "10.7717/peerj.15838/table-3"
+    },
+    {
+      "title": "Perception-based Evaluation Of Projection Methods for Multidimensional Data Visualization",
+      "authors": "Etemadpour et al.",
+      "publication": "TVCG 2015",
+      "doi": "10.1109/tvcg.2014.2330617"
+    },
+    {
+      "title": "Visual Quality Metrics and Human Perception: an Initial Study on 2d Projections Of Large Multidimensional Data",
+      "authors": "Tatu et al.",
+      "publication": "AVI 2010",
+      "doi": "10.1145/1842993.1843002"
+    },
+    {
+      "title": "Visualizing the Quality Of Dimensionality Reduction",
+      "authors": "Lueks et al.",
+      "publication": "Neurocomp 2013",
+      "doi": "10.1016/j.neucom.2012.11.046"
+    }
+  ]
+}

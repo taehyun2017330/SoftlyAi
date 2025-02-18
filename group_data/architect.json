@@ -1,0 +1,137 @@
+{
+  "groupName": "Architect",
+  "papers": [
+    {
+      "title": "Observation-Level and Parametric Interaction for High-Dimensional Data Analysis.",
+      "authors": "Self et al.",
+      "publication": "TiiS 2018",
+      "doi": "10.1145/3158230"
+    },
+    {
+      "title": "User-driven Feature Space Transformation",
+      "authors": "Mamani et al.",
+      "publication": "CGF 2013",
+      "doi": "10.1111/cgf.12116"
+    },
+    {
+      "title": "Ipca: an Interactive System for Pca-based Visual Analytics",
+      "authors": "Jeong et al.",
+      "publication": "CGF 2009",
+      "doi": "10.1111/j.1467-8659.2009.01475.x"
+    },
+    {
+      "title": "Ivisclassifier: an Interactive Visual Analytics System for Classification Based on Supervised Dimension Reduction",
+      "authors": "Choo et al.",
+      "publication": "VAST 2010",
+      "doi": "10.1109/vast.2010.5652443"
+    },
+    {
+      "title": "Sirius: Dual, Symmetric, Interactive Dimension Reductions",
+      "authors": "Dowling et al.",
+      "publication": "TVCG 2019",
+      "doi": "10.1109/tvcg.2018.2865047"
+    },
+    {
+      "title": "Incorporation Of Human Knowledge Into Data Embeddings to Improve Pattern Significance and Interpretability",
+      "authors": "Li and Zhou",
+      "publication": "TVCG 2023",
+      "doi": "10.1109/tvcg.2022.3209382"
+    },
+    {
+      "title": "A Visual Interaction Framework for Dimensionality Reduction Based Data Exploration",
+      "authors": "Cavallo and Demiralp",
+      "publication": "CHI 2018",
+      "doi": "10.1145/3173574.3174209"
+    },
+    {
+      "title": "Probing Projections: Interaction Techniques for Interpreting Arrangements and Errors Of Dimensionality Reductions",
+      "authors": "Stahnke et al.",
+      "publication": "TVCG 2016",
+      "doi": "10.1109/tvcg.2015.2467717"
+    },
+    {
+      "title": "Explaining Dimensionality Reduction Results Using Shapley Values",
+      "authors": "Marcílio-jr and Eler",
+      "publication": "ESWA 2021",
+      "doi": "10.1016/j.eswa.2021.115020"
+    },
+    {
+      "title": "T-visne: Interactive Assessment and Interpretation Of T-sne Projections",
+      "authors": "Chatzimparmpas et al.",
+      "publication": "TVCG 2020",
+      "doi": "10.1109/tvcg.2020.2986996"
+    },
+    {
+      "title": "Distortion-guided Structure-driven Interactive Exploration Of High-dimensional Data",
+      "authors": "Liu et al.",
+      "publication": "CGF 2014",
+      "doi": "10.1111/cgf.12366"
+    },
+    {
+      "title": "Visexpres: a Visual Interactive Toolkit for User-driven Evaluations Of Embeddings",
+      "authors": "Ghosh et al.",
+      "publication": "TVCG 2022",
+      "doi": "10.1109/tvcg.2020.3039106"
+    },
+    {
+      "title": "Dis-function: Learning Distance Functions Interactively",
+      "authors": "Brown et al.",
+      "publication": "VAST 2012",
+      "doi": "10.1109/vast.2012.6400486"
+    },
+    {
+      "title": "An Interactive Visual Testbed System for Dimension Reduction and Clustering Of Large-scale Highdimensional Data",
+      "authors": "Choo et al.",
+      "publication": "VDA 2013",
+      "doi": "10.1117/12.2007316"
+    },
+    {
+      "title": "Quality-based Guidance for Exploratory Dimensionality Reduction",
+      "authors": "Fernstad et al.",
+      "publication": "IVIS 2013",
+      "doi": "10.1177/1473871612460526"
+    },
+    {
+      "title": "Brushing Dimensions - a Dual Visual Analysis Model for High-dimensional Data",
+      "authors": "Turkay et al.",
+      "publication": "TVCG 2011",
+      "doi": "10.1109/tvcg.2011.178"
+    },
+    {
+      "title": "Visual Analysis Of Class Separations with Locally Linear Segments",
+      "authors": "Ma and Maciejewski",
+      "publication": "TVCG 2021",
+      "doi": "10.1109/tvcg.2020.3011155"
+    },
+    {
+      "title": "Efficient Morphing Of Shape-preserving Star Coordinates",
+      "authors": "Molchanov et al.",
+      "publication": "PacificVis 2020",
+      "doi": "10.1109/pacificvis48177.2020.8199"
+    },
+    {
+      "title": "Feature Learning for Nonlinear Dimensionality Reduction Toward Maximal Extraction Of Hidden Patterns",
+      "authors": "Fujiwara et al.",
+      "publication": "PacificVis 2023",
+      "doi": "10.1109/pacificvis56936.2023.00021"
+    },
+    {
+      "title": "Ldsscanner: Exploratory Analysis Of Low-dimensional Structures in High-dimensional Datasets",
+      "authors": "Xia et al.",
+      "publication": "TVCG 2017",
+      "doi": "10.1109/tvcg.2017.2744098"
+    },
+    {
+      "title": "Visualization Methodology for Multidimensional Scaling",
+      "authors": "Buja and Swayne",
+      "publication": "Classification 2002",
+      "doi": "10.1007/s00357-001-0031-0"
+    },
+    {
+      "title": "Evosets: Tracking the Sensitivity Of Dimensionality Reduction Results Across Subspaces",
+      "authors": "Sun et al.",
+      "publication": "BD 2022",
+      "doi": "10.1109/tbdata.2021.3079200"
+    }
+  ]
+}

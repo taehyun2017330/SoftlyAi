@@ -1,0 +1,113 @@
+{
+  "groupName": "Explainer",
+  "papers": [
+    {
+      "title": "Visualizing Distortions and Recovering Topology in Continuous Projection Techniques",
+      "authors": "Aupetit",
+      "publication": "Neurocomp 2007",
+      "doi": "10.1016/j.neucom.2006.11.018"
+    },
+    {
+      "title": "Techniques for Precision-based Visual Analysis Of Projected Data",
+      "authors": "Schreck t. et al.",
+      "publication": "VDA 2010",
+      "doi": "10.1117/12.838720"
+    },
+    {
+      "title": "Explaining Neighborhood Preservation for Multidimensional Projections",
+      "authors": "Martins et al.",
+      "publication": "SVCG 2015",
+      "doi": "10.2139/ssrn.4772786"
+    },
+    {
+      "title": "Stress Maps: Analysing Local Phenomena in Dimensionality Reduction Based Visualisations",
+      "authors": "Seifert et al.",
+      "publication": "EuroVA 2010",
+      "doi": "10.14293/p2199-8442.1.sop-phys.p7fsu7.v1"
+    },
+    {
+      "title": "Proxilens: Interactive Exploration Of High-dimensional Data Using Projections",
+      "authors": "Heulot et al.",
+      "publication": "VAMP 2013",
+      "doi": "10.1109/vds48975.2019.8973381"
+    },
+    {
+      "title": "Distortion-aware Brushing for Interactive Cluster Analysis in Multidimensional Projections",
+      "authors": "Jeon et al.",
+      "publication": "arXiv 2022",
+      "doi": "10.11606/d.55.2017.tde-16012017-095849"
+    },
+    {
+      "title": "Visual Analysis Of Dimensionality Reduction Quality for Parameterized Projections",
+      "authors": "Martins et al.",
+      "publication": "CG 2014",
+      "doi": "10.1016/j.cag.2014.01.006"
+    },
+    {
+      "title": "Checkviz: Sanity Check and Topological Clues for Linear and Non-linear Mappings",
+      "authors": "Lespinats et al.",
+      "publication": "CGF 2011",
+      "doi": "10.1111/j.1467-8659.2010.01835.x"
+    },
+    {
+      "title": "Interpreting Distortions in Dimensionality Reduction by Superimposing Neighbourhood Graphs",
+      "authors": "Colange et al.",
+      "publication": "VIS 2019",
+      "doi": "10.1109/visual.2019.8933568"
+    },
+    {
+      "title": "Interaxis: Steering Scatterplot Axes Via Observation-level Interaction",
+      "authors": "Kim et al.",
+      "publication": "TVCG 2016",
+      "doi": "10.1109/tvcg.2015.2467615"
+    },
+    {
+      "title": "Axisketcher: Interactive Nonlinear Axis Mapping Of Visualizations Through User Drawings",
+      "authors": "Kwon et al.",
+      "publication": "TVCG 2017",
+      "doi": "10.1109/tvcg.2016.2598446"
+    },
+    {
+      "title": "Just-in-time Annotation Of Clusters, Outliers, and Trends in Point-based Data Visualizations",
+      "authors": "Kandogan",
+      "publication": "VAST 2012",
+      "doi": "10.1109/vast.2012.6400487"
+    },
+    {
+      "title": "Explaining Three-dimensional Dimensionality Reduction Plots",
+      "authors": "Coimbra et al.",
+      "publication": "IVIS 2016",
+      "doi": "10.1177/1473871615600010"
+    },
+    {
+      "title": "Dimreader: Axis Lines That Explain Non-linear Projections",
+      "authors": "Faust et al.",
+      "publication": "TVCG 2019",
+      "doi": "10.1109/tvcg.2018.2865194"
+    },
+    {
+      "title": "Understanding Attribute Variability in Multidimensional Projections",
+      "authors": "Pagliosa et al.",
+      "publication": "SIBGRAPI 2016",
+      "doi": "10.1109/sibgrapi.2016.048"
+    },
+    {
+      "title": "Attribute-based Visual Explanation Of Multidimensional Projections",
+      "authors": "Da silva et al.",
+      "publication": "EuroVA 2015",
+      "doi": "10.11606/t.55.2016.tde-11112016-184130"
+    },
+    {
+      "title": "Coloring That Reveals Cluster Structures in Multivariate Data",
+      "authors": "Kaski et al.",
+      "publication": "IIPS 2000",
+      "doi": "10.1080/00273171.2012.673952"
+    },
+    {
+      "title": "Attribute-based Explanation Of Non-linear Embeddings Of High-dimensional Data",
+      "authors": "Sohns et al.",
+      "publication": "TVCG 2021",
+      "doi": "10.1109/tvcg.2021.3114870"
+    }
+  ]
+}

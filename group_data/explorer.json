@@ -1,0 +1,41 @@
+{
+  "groupName": "Explorer",
+  "papers": [
+    {
+      "title": "The Subspace Voyager: Exploring High-dimensional Data Along a Continuum Of Salient 3d Subspaces",
+      "authors": "Wang and Mueller",
+      "publication": "TVCG 2017",
+      "doi": "10.1109/tvcg.2017.2672987"
+    },
+    {
+      "title": "Dust & Magnet: Multivariate Information Visualization Using a Magnet Metaphor",
+      "authors": "Yi et al.",
+      "publication": "IVIS 2005",
+      "doi": "10.1057/palgrave.ivs.9500099"
+    },
+    {
+      "title": "The Grand Tour: a Tool for Viewing Multidimensional Data",
+      "authors": "Asimov",
+      "publication": "SIAM 1985",
+      "doi": "10.1137/0906011"
+    },
+    {
+      "title": "Grand Tour and Projection Pursuit",
+      "authors": "Cook et al.",
+      "publication": "JCGS 1995",
+      "doi": "10.32614/cran.package.pursuit"
+    },
+    {
+      "title": "Tripadvisor N-d: a Tourism-inspired High-dimensional Space Exploration Framework with Overview and Detail",
+      "authors": "Nam and Mueller",
+      "publication": "TVCG 2013",
+      "doi": "10.1109/tvcg.2012.65"
+    },
+    {
+      "title": "The Grassmannian Atlas: a General Framework for Exploring Linear Projections Of High-dimensional Data",
+      "authors": "Liu et al.",
+      "publication": "CGF 2016",
+      "doi": "10.1111/cgf.12876"
+    }
+  ]
+}
